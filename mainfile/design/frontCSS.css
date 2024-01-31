@@ -1,0 +1,130 @@
+
+body {
+    background-color: #000000;
+    color: black;
+    text-align: center;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    padding: 15px;
+    margin-top: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #DCC1F8;
+
+}
+
+
+.title {
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+    font-weight: 1000;
+    color: #6200A4;
+}
+
+
+sub {
+    vertical-align: sub;
+    font-size: small;
+}
+
+
+.seconds {
+    font-size: 24px;
+}
+
+
+.showscreen {
+    background-color: #EEEAF9;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.input {
+    background-color: #ffffff;
+    height: 80px;
+    width: 90%;
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+
+.bg-container {
+    background-image: linear-gradient(to left, #7F7FD5 ,  #91EAE4);
+    height: 100vh;
+    padding: 10px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 44px;
+    color: #690cb0;
+    font-weight: bold;
+}
+
+.disc {
+    font-size: 24px;
+    color: #3e4c59;
+    font-weight: bold;
+}
+
+.clock {
+    margin-top: 13px;
+    height: 55px;
+}
+
+.timer-text {
+    font-size: 45px;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #f3eaff;
+    padding: 15px;
+    border-color: #9aa5b1;
+}
+
+
+
+input:focus {
+    border: solid 1.2px #BB976D;
+}
+
+
+.purple {
+    background-color: #6200A4;
+    color: white;
+
+
+}
+
+
+.btn {
+    border: none;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
